@@ -3,7 +3,7 @@
 ?>
 
     <div class="footer">
-        <p>Check us out on facebook: <a href="https://www.facebook.com/zachsguidetoprovo"><img class="footerimage" src="media/facebook.jpeg"></a></p>
+        <p>Check us out on facebook: <a href="https://www.facebook.com/zachsguidetoprovo"><img class="footerimage" src="media/facebook.jpg"></a></p>
 		<nav>
 			<a class="homenav" href="index.php">Home</a>|
   			<a class="mynav" href="index.php?page=hikes">Provo Hikes</a>|

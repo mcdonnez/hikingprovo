@@ -4,7 +4,7 @@
 </div>
     <div class="blackcontainer padding">
     <p class="bluemessage">There are over 20 hikes within an hour of Provo.</p>
-        <a href="Map.html"><img class="highlight" src="/media/UtahMap.jpeg"/></a>
+        <a href="index.php?page=map"><img class="highlight" src="/media/UtahMap.jpg"/></a>
     </div>
     <div class="bluecontainer">
         <p class="blackmessage">
