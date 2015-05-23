@@ -1,6 +1,6 @@
 <?php
 require_once('../view/functions/render.php');
-
+// this is a test
 // determine what page to render
 if (isset($_GET['page']))
 	$page = $_GET['page'];
