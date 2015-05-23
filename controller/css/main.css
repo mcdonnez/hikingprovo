@@ -1,0 +1,296 @@
+/* Global Styles */
+* {
+	font-family: arial;
+}
+body  {
+    background-image: url("../media/RockCanyonBackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+	margin: 0 0;
+}
+.padding {
+    padding: 40px 0px 40px 0px;    
+}
+.primarybutton {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 400px;
+	width: 200px;
+	height: 35px;
+    color: white;
+    background-color: #303C88;
+    border-color: #303C88;
+    border-radius: 5px;
+	font-size: .8em;
+	text-decoration: none;
+	vertical-align: middle;
+	padding: 15px;
+	transition-property: all;
+	transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+.primarybutton:hover {
+	color: aliceblue;
+	background-color: #4267C0;
+	border-color: #4267C0;
+	width: 220px;
+}
+.highlight {
+	border-color: black;
+	border-style: solid;
+	border-width: 0px;}
+.highlight:hover {
+	box-shadow: 0px 0px 15px aliceblue;
+	transition-property: all;
+	transition-duration: .2s;
+	transition-timing-function: ease-out;
+}
+p {
+    padding-top: 22px;
+    padding-bottom: 22px;
+    font-size: 1.7em;
+    margin: 0 auto;
+	font-family: Cabin, arial, sans-serif;
+}
+a:hover {
+    color: white;
+}
+.footer {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    background-color: #c0def8;
+    opacity: .9;
+    padding: 10px 0px 40px 0px;
+    color: black;
+}
+.footer a {
+	font-size: 1em;
+	color: black;
+}
+.footer img {
+	vertical-align: middle;
+}
+
+/*Navigator*/
+.navigator {
+	height: 37px;
+	background-image: url(../media/binding_dark.png);
+    background-repeat: repeat;
+	padding-left: 10px;
+	padding-top: 12px;
+	margin: 0 0;
+}
+.homenav {
+	font-size: 1.3em;
+	padding: 10px 15px 10px 15px;
+	color: grey;
+	text-decoration: none;
+}
+.homenav:hover {
+	text-decoration: none;
+	color: #448BF3;
+}
+.mynav {
+	font-size: 1.1em;
+	display: inline;
+	padding: 10px 15px 10px 15px;
+	color: grey;
+	text-decoration: none;
+}
+.mynav:hover {
+	text-decoration: none;
+	color: #448BF3;
+}
+.myactive {
+	color: white;
+	text-decoration: none;
+}
+.myactive:hover {
+	text-decoration: none;
+	color: white;
+}
+/*.login {
+	display: inline-block;
+}*/
+/* Front Page Styles*/
+#frontpage {
+    background: -webkit-radial-gradient(#c0def8 40%, #448BF3); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#c0def8 40%, #448BF3); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#c0def8 40%, #448BF3); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#c0def8 40%, #448BF3); /* Standard syntax */
+	margin: 0 auto;
+    text-align: center;
+    display: block;
+	opacity: .9;
+    color: black;
+	font-size: 2.5em;
+	font-family: Cabin, Helvetica, Arial, sans-serif;
+	transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+.bluemessage {
+    margin: 0 auto;
+    color: aliceblue;
+    max-width: 500px;
+	align-content: center;
+	text-align: justify;
+}
+.blackcontainer {
+    background-color: black;
+    opacity: .9;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(../media/binding_dark.png);
+    background-repeat: repeat;
+	transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+.bluecontainer {
+    background-color: #c0def8;
+    opacity: .9;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 40px 0px 40px 0px;
+    color: black;
+}
+.blackmessage {
+    margin: 0 auto;
+    color: black;
+    text-align: justify;
+    max-width: 500px;
+}
+.quote {
+	font-family: Lora, arial;
+	font-size: 1.3em;
+}
+
+/* Provo Hikes Page Styles */
+#secondpage {
+    background: -webkit-radial-gradient(#c0def8 40%, #448BF3); /* Safari 5.1 to 6.0 */
+    background: -o-radial-gradient(#c0def8 40%, #448BF3); /* For Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(#c0def8 40%, #448BF3); /* For Firefox 3.6 to 15 */
+    background: radial-gradient(#c0def8 40%, #448BF3); /* Standard syntax */
+	margin: 0 auto 0 auto;
+    text-align: center;
+    display: block;
+	opacity: .9;
+    color: black;
+	font-size: 1.3em;
+	padding: 15px;
+	font-family: Cabin, Helvetica, Arial, sans-serif;
+	transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+.intro {
+    text-align: justify;
+    margin: 0 8%;
+    color: aliceblue
+}
+.myrow { 
+    vertical-align: top; 
+    height:auto !important; 
+}
+.mylist {
+    display:none; 
+}
+.myshow {
+    display: none; 
+}
+.myhide:target + .myshow {
+    display: inline; 
+}
+.myhide:target {display: none; }
+.myhide:target ~ .mylist {display:inline; }
+@media print { .myhide, .myshow { display: none; } }
+
+div>img {
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 20px;
+    border-width: 0px;
+}
+.hike {
+    width: 300px;
+    background-color: aliceblue;
+    display:inline-block;
+    border-radius: 5px;
+}
+th, .center {
+    text-align: center;
+}
+td, th {
+    padding: 5px;
+}
+.hikecategory {
+    margin: 0;
+    padding: 0 8%;
+    list-style-type: none;
+    background-image: url(../media/binding_dark.png);
+    opacity: .9;
+}
+.hikelist {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.hikeheader {
+    padding: 5px;
+    background-color: #303C88;
+    padding-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    min-width: 300px;
+    color: white;
+    border-radius: 5px;
+    font-size: 2.5em;
+    opacity: 1.0;
+}
+.hikesection {
+    justify: 0 10%;
+}
+.hikemap {
+    text-align:center;
+    width:100%;
+    margin-top: -20px;
+    background-color: #c0def8;
+    opacity: .9;
+    padding-bottom: 20px;
+}
+.directions {
+    background-color: #303C88;
+    border-radius: 5px;
+    color: white;
+    padding: 5px 15px 5px 15px;
+	text-decoration: none;
+	transition-property: all;
+	transition-duration: .3s;
+	transition-timing-function: ease-out;
+}
+.directions:hover {
+    background-color: #4267C0;
+    text-decoration: none;
+}
+.coldirections {
+    text-align: center;
+}
+.hikedescription {
+    border-top: 2px solid black;
+    text-align: justify;
+    height: 300px;
+}
+.hiketitle {
+    border-bottom: 2px solid black;
+    font-size: 1.8em;
+    padding: 0px;
+}
+/*Map Page Styles */
+.div img {
+	vertical-align: middle;
+}

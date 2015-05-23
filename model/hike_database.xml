@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<provohikes>
+<area id="1" name="Provo Canyon">
+	<hike id="1">
+		<name>Stewart Falls</name>
+		<difficulty>Moderate</difficulty>
+		<distance>3.5</distance>
+		<popularity>High</popularity>
+		<description>This hike is a great ward activity or date. It takes maybe a couple hours depending on how fast you hike. The trail has some moderate slopes however it's nothing difficult. When you finally reach the falls you get a spectacular view and then you have a steep drop down to the bottom of the falls. I really recommend this hike.</description>
+		<location>https://www.google.com/maps/place/Aspen+Grove+Trailhead</location>
+	</hike>
+	<hike id="2">
+		<name>Bridal Veil Falls</name>
+		<difficulty>Very Easy</difficulty>
+		<distance>0.8</distance>
+		<popularity>Very High</popularity>
+		<description>This hike is short and sweet hike to a falls straight off Provo Canyon Road. The trail is paved and is part of the greater Provo River Parkway Trail. Bridal Veil Falls is part of a park with plenty of park benches and grass to have a great picnic.</description>
+		<location>https://www.google.com/maps/place/Bridal+Veil+Falls,+Provo,+UT+84604</location>
+	</hike>
+	<hike id="3">
+		<name>Big Springs</name>
+		<difficulty>Easy</difficulty>
+		<distance>4.3</distance>
+		<popularity>Low</popularity>
+		<description>This is a great loop back in the mountains. The trail starts at Big Springs Park and provides a different view of the peaks of the Wasatch front.</description>
+		<location>https://www.google.com/maps/place/Spring+Hollow+Rd,+Provo,+UT+84604/@40.3322926,-111.5242011,17z/data=!3m1!4b1!4m7!1m4!3m3!1s0x874d927dfe575ddd:0xc2b518ec9e659695!2sSpring+Hollow+Rd,+Provo,+UT+84604!3b1!3m1!1s0x874d927d73b847bf:0x85eaeff8c3730984</location>
+	</hike>
+	<hike id="4">
+		<name>Squaw Peak Road</name>
+		<difficulty></difficulty>
+		<distance></distance>
+		<popularity>Medium</popularity>
+		<description>Squaw Peak Road offers many spectacular views of Utah Valley and makes for a good drive. 4 Miles along the road is Squaw Peak overlook which offers a great view of the valley. If you continue another 2 miles along the road you can find the beautiful Rock Canyon Overlook.</description>
+		<location>https://www.google.com/maps/place/Squaw+Peak+Rd,+Provo,+UT+84604/@40.3272496,-111.6312843,18z/data=!3m1!4b1!4m7!1m4!3m3!1s0x874d8fdac3051579:0xdbcd54c99ef15b10!2sSquaw+Peak+Rd,+Utah!3b1!3m1!1s0x874d8fda97274e55:0x685620224f842e32</location>
+	</hike>
+	<hike id="5">
+		<name>Provo Peak</name>
+		<difficulty>Strenuous</difficulty>
+		<distance>1.5</distance>
+		<popularity>Low</popularity>
+		<description>13.4 Miles down Squaw Peak Road is one of the seven peaks of the Wasatch Front, Provo Peak. Not for the faint of heart or those trying to get to the unmarked trail head in a passenger vehicle. Squaw Peak Road is maintained until Rock Canyon Campground located 10 miles down Squaw Peak Road leaving 3.4 miles of rocky and rutted dirt road to the trail head. From the trail head Provo peak is maybe 1.5 miles to the Peak however each step is directly upward.</description>
+		<location>https://www.google.com/maps/place/Provo+Peak+Trail+Head</location>
+	</hike>
+	<hike id="6">
+		<name>Mt. Timpanogos</name>
+		<difficulty>Strenuous</difficulty>
+		<distance>10</distance>
+		<popularity>Very High</popularity>
+		<description>This is one of the most popular peaks to climb here in Utah. There are two trail heads to get to the peak however both trails are 10+ miles and make for an entire day journey. It's recommended to start early and be prepared for the many miles ahead. There are plenty of pages about the hike if you do a Google search for it.</description>
+		<location>https://www.google.com/maps/dir/The+Shops+At+Riverwoods,+4801+N+University+Ave+%23480,+Provo,+UT+84604/Aspen+Grove+Trailhead,+UT+84604/@40.3414696,-111.6566042,12z/data=!4m13!4m12!1m5!1m1!1s0x874d900ea6e393ab:0x63e5c92af4428ad8!2m2!1d-111.657872!2d40.298954!1m5!1m1!1s0x874d89328ae3bfa9:0x20ab614c5e99f553!2m2!1d-111.605164!2d40.404508</location>
+	</hike>
+</area>
+<area id="2" name="Rock Canyon">
+	<hike id="7">
+		<name>Rock Canyon</name>
+		<difficulty></difficulty>
+		<distance></distance>
+		<popularity>High</popularity>
+		<description>Rock Canyon is a great hike in and out. You can find caves along the trail and there is a water fountain only a mile up the trail. This is another quick hike depending on how far you want to go.</description>
+		<location>https://www.google.com/maps/place/Rock+Canyon+Trail,+Provo,+UT+84604</location>
+	</hike>
+	<hike id="8">
+		<name>Squaw Peak</name>
+		<difficulty>Moderate</difficulty>
+		<distance>6.8</distance>
+		<popularity>Medium</popularity>
+		<description>If you continue along Rock Canyon Trail you can make it to Squaw Peak. The hike is a moderate distance and at points is steep but makes for a hike with a round trip time of 2-4 hours. Here's a website with more information about Squaw Peak.</description>
+		<location>https://www.google.com/maps/place/Squaw+Peak+Trail,+Provo,+UT+84604</location>
+	</hike>
+	<hike id="9">
+		<name>Trail to the Y</name>
+		<difficulty>Medium</difficulty>
+		<distance>2.2</distance>
+		<popularity>Very High</popularity>
+		<description>A very popular hike because of the iconic Y, the trail to the Y is grueling 1.1 miles along dusty switch backs to the top of the Y. This makes for another quick hike. You can be up and down within an hour if you want. I really recommend going a little farther and check out the small canyon on the way to the top of Y mountain.</description>
+		<location>https://www.google.com/maps/place/Hike+the+Y,+Provo,+UT+84604</location>
+	</hike>
+	<hike id="10">
+		<name>Y Mountain</name>
+		<difficulty>Hard</difficulty>
+		<distance>6.6</distance>
+		<popularity>Low</popularity>
+		<description>If you want to escape the crowds amassed on the Y continue along the humble trails to Y Mountain. Past the Y the trail narrows and lessens in elevation gain (it's still steep). This trail enters into some small groves of trees and meadows on it's way to the top of Y mountain. When you finally get to the top there are two points. The Y mountain overlook which looks out over the valley and the actual Y mountain peak which gives a spectacular view of the mountains and valleys on the other side of Rock Canyon.</description>
+		<location>https://www.google.com/maps/place/Y+Mountain</location>
+	</hike>
+</area>
+<area id="3" name="Hikes in Provo">
+	<hike id="11">
+		<name>Bonnevile Shoreline Trail</name>
+		<difficulty></difficulty>
+		<distance></distance>
+		<popularity>Medium</popularity>
+		<description>The Bonneville Shoreline Trail travels off and on along the entire length of the Utah valley. From Springville all the way to Highland and beyond. You will never run out of trail to walk, run or bike.</description>
+		<location>https://www.google.com/maps/place/Bonneville+Shoreline+Trail,+Provo,+UT+84606</location>
+	</hike>
+	<hike id="12">
+		<name>Provo River Trail</name>
+		<difficulty></difficulty>
+		<distance></distance>
+		<popularity>High</popularity>
+		<description>There are 8.6 miles between Utah Lake and the Shops at Riverwood near the mouth of Provo Canyon. Depending on the distance you want to travel, the Provo River trail is a beautiful trails that follows the river and at many parts is shaded. The entire trail is paved.</description>
+		<location>https://www.google.com/maps/place/Provo+River+Trail,+Provo,+UT+84604</location>
+	</hike>
+	<hike id="13">
+		<name>Utah Lake</name>
+		<difficulty>Moderate</difficulty>
+		<distance>8.4</distance>
+		<popularity>High</popularity>
+		<description>If you start at Macey's in Provo you can make it all the way down to Utah Lake. The trail is paved and makes for a good bike ride. This is a favorite of my wife and I.</description>
+		<location>https://www.google.com/maps/dir/Macey%E2%80%99s,+North+State+Street,+Provo,+UT/Utah+Lake+State+Park,+West+Center+Street,+Provo,+UT/@40.2451997,-111.7380977,13z/data=!3m1!4b1!4m14!4m13!1m5!1m1!1s0x874d9a74f2decc31:0xf32a44ec4ba1ca6b!2m2!1d-111.666161!2d40.253002!1m5!1m1!1s0x874d9bc1ee76ffdf:0xb4323c650f7493e!2m2!1d-111.736212!2d40.23784!3e2</location>
+	</hike>
+	<hike id="14">
+		<name>Saratoga Hot Springs</name>
+		<difficulty>Easy</difficulty>
+		<distance>0.6</distance>
+		<popularity>High</popularity>
+		<description>A popular hot springs and an easy hike to the hot springs. This hike is nice however the hot spring is shallow and is located in a section of marshy land next to Utah Lake. Take a shower afterwards for sure.</description>
+		<location>https://www.google.com/maps/place/Jordan+River+Trail,+Saratoga+Springs,+UT+84043/@40.3577474,-111.89916,17z/data=!3m1!4b1!4m6!1m3!3m2!1s0x874d7ed62688e5bf:0x275706c64fca95a1!2sSaratoga+Springs+Park+and+Pavilion!3m1!1s0x874d7f26b660d1f5:0x3de2bf8bce0f8188</location>
+	</hike>
+</area>
+<area id="4" name="Diamond Fork Road">
+	<hike id="15">
+		<name>Fifth Water Hot Springs</name>
+		<difficulty>Moderate</difficulty>
+		<distance>4.6</distance>
+		<popularity>High</popularity>
+		<description>This is a great hot springs located in at the end of Diamond fork canyon. This canyon is beautiful and has a whole bunch of locations to stop and have a picnic. 10 miles down the road you can find the trail head to Fifth Water hot springs. It's 2.3 miles to the hot springs which is located right along the creek. This is a great hike and hot springs. The hot springs has a lot of sulfur and make sure to wash your swimsuit separate from the rest of your clothes unless you like the smell of sulfur.</description>
+		<location></location>
+	</hike>
+</area>
+<area id="5" name="American Fork Canyon">
+	<hike id="16">
+		<name>Silver Lake</name>
+		<difficulty>Moderate</difficulty>
+		<distance>4.4</distance>
+		<popularity>High</popularity>
+		<description>Silver Lake is located up American Fork Canyon. The last bit is on a dirt road so a vehicle with high clearance is recommended but not required. The trail is 2.2 miles and ends at a pristine lake nestled in the mountains. The water is clear and the hike is breathtaking. Overall it takes maybe two and a half hours of hiking but you will definitely want to take some time to enjoy nature. There are also peaks and another small lake about a mile from the lake for those that want to have a little more adventure. There is a $6 fee to enter the canyon.</description>
+		<location></location>
+	</hike>
+	<hike id="17">
+		<name>Mt. Timpanogos Caves</name>
+		<difficulty>Easy</difficulty>
+		<distance>1.5</distance>
+		<popularity>Very High</popularity>
+		<description>The Timpanogos Caves is a series of caves located up the side the north side of Mt. Timpanogos and is one of the more popular attractions near Provo. It is a guided tour to go through the caves and pricing can be found on the National Park Service Website.</description>
+		<location></location>
+	</hike>
+</area>
+<area id="6" name="Mt. Nebo Loop">
+	<hike id="19">
+		<name>Grotto Falls</name>
+		<difficulty>Very Easy</difficulty>
+		<distance>0.6</distance>
+		<popularity>High</popularity>
+		<description>Another popular hike. This hike follows Peteetneet Creek .3 miles to a waterfall tucked into the hill.</description>
+		<location></location>
+	</hike>
+	<hike id="20">
+		<name>Devils Kitchen</name>
+		<difficulty>Very Easy</difficulty>
+		<distance>0.4</distance>
+		<popularity>Medium</popularity>
+		<description>Located along the Scenic Nebo Loop. It's a short walk from the car to the overlook of Devils Kitchen. It's a nice stop along this gorgeous stretch of road that starts at Payson, only a 30 minute drive from downtown Provo.</description>
+		<location></location>
+	</hike>
+	<hike id="21">
+		<name>Mt. Nebo</name>
+		<difficulty>Hard</difficulty>
+		<distance>4.8</distance>
+		<popularity>Low</popularity>
+		<description>Mt. Nebo is the highest peak in the Wasatch front. There are two peaks to the mountain and the North Peak is slightly higher than the south peak. By taking the North Peak trail it's 2.4 miles to the top of the mountain with 2000 ft net elevation gain (you go down and up though). I have yet to go on this hike but I have heard good things about it.</description>
+		<location></location>
+	</hike>
+</area>
+<area id="7" name="Other Hikes">
+	<hike id="22">
+		<name>Dry Canyon</name>
+		<difficulty>Easy</difficulty>
+		<distance>1.4</distance>
+		<popularity>Medium</popularity>
+		<description>Dry Canyon is a short hike up a beautiful canyon in Utah Valley. The trail is well maintained but is not frequented much.  The trail follows a water pipe that runs along the entire length of the trail and at points you can hear the water gurgling beneath you. The trail is about the same steepness as all the other canyons in the area. At the top of Dry Canyou you can take trail back to the cliffs of the canyon walls. Upon reaching one of the cliffs there is a breathtaking view of Utah Valley and Utah Lake. Definitely a fun short hike.</description>
+		<location></location>
+	</hike>
+	<hike id="23">
+		<name>Battle Creek Falls</name>
+		<difficulty>Easy</difficulty>
+		<distance>1.2</distance>
+		<popularity>Medium</popularity>
+		<description>This is an family friendly easy hike to a nice waterfall located in Pleasant Grove. It's steep (every canyon in Utah Valley is steep) but a short rewarding hike.</description>
+		<location></location>
+	</hike>
+	<hike id="24">
+		<name>Big Baldy</name>
+		<difficulty>Hard</difficulty>
+		<distance>7</distance>
+		<popularity>Low</popularity>
+		<description>This is a steep strenuous hike to the top of the "little" mountain in front of Mt. Timpanogos. There are two trailheads either Dry Canyon Trailhead or Battle Creek Trailhead however either way you will be hiking straight up nearly the entire way.</description>
+		<location></location>
+	</hike>
+	<hike id="25">
+		<name>Grove Creek Canyon</name>
+		<difficulty>Hard</difficulty>
+		<distance>6</distance>
+		<popularity>Medium</popularity>
+		<description>Start this hike early because the trail is located on the south side of the canyon leaving you exposed to the sun on a dusty trail with little cover. The trail starts out following the stream until you take a sudden switch back all the way to the mouth of the canyon and back in again up to a gorgeous stream and series of waterfalls where two streams connect. Definitely worth the difficult hike.</description>
+		<location></location>
+	</hike>
+	<hike id="26">
+		<name>Maple Canyon</name>
+		<difficulty>Medium</difficulty>
+		<distance>4</distance>
+		<popularity>Medium</popularity>
+		<description>Maple Canyon is located about an hour from Provo, Utah and is very popular with the rock climbers. However it has a great campsites that makes for a good weekend trip along with some trails near the campground that make for a 3-5 mile loops which makes for some good views and hikes. There is an arch not too far up the canyon (about a mile) that makes for an easy hike.</description>
+		<location></location>
+	</hike>
+	<hike id="27">
+		<name>Doughnut Falls</name>
+		<difficulty>Easy</difficulty>
+		<distance>1.56</distance>
+		<popularity>Very High</popularity>
+		<description>Doughnut Falls is an easy hike to a falls that goes through a hole shaped like a donut. It does involve some rock scrambling near the end as you climb boulders but is a quick short hike about an hours drive from Provo. Here's a website with more information about the hike.</description>
+		<location></location>
+	</hike>
+</area>
+</provohikes>
