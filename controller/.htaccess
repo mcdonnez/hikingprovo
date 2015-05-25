@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^map?$ /index.php?page=map
+RewriteRule ^([A-Za-z0-9-]+)?$ /index.php?page=$1
