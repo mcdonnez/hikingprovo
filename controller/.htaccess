@@ -1,2 +1,2 @@
 RewriteEngine on
-RewriteRule ^/map?$ /index.php?page=map
+RewriteRule ^map?$ /index.php?page=map
