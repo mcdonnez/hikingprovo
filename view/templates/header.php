@@ -34,14 +34,16 @@ if (isset($_POST["logout"]))
 <head>
     <title>Zach's Hiking Guide to Provo</title>
     <link rel="shortcut icon" href="media/tree_favicon.gif" type="image/x-icon" />
-    <link rel="stylesheet" href="css/main.css" type="text/css" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-  <link rel="stylesheet" href="/resources/demos/style.css">
+  
     <script>
   $(function() {
-    $( "#accordion" ).accordion();
+    $( "#accordion" ).accordion({
+    	collapsible: true});
+    
   });
   </script>
 </head>
