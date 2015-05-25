@@ -243,7 +243,7 @@ td, th {
 }
 .hikeheader {
     padding: 5px;
-    background-color: #303C88;
+    background-color: #303C88 !important;
     background: none;
     padding-left: 20px;
     margin-top: 0px !important;
