@@ -1,6 +1,11 @@
 <?php
 // Start a session
 session_start();
+//Prevent Caches for development
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+//Dummy password
 define("USER","Zachm");
 define("PASS","12345");
 if (isset($_POST["user"]) && isset($_POST["pass"]))

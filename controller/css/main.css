@@ -230,7 +230,7 @@ td, th {
 }
 .hikecategory {
     margin: 0;
-    padding: 0 ;
+    padding: 0 0;
     list-style-type: none;
     background-image: url(../media/binding_dark.png);
     opacity: .9;
@@ -239,6 +239,7 @@ td, th {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    background: none;
 }
 .hikeheader {
     padding: 5px;
@@ -266,7 +267,7 @@ td, th {
 .directions {
     background-color: #303C88;
     border-radius: 5px;
-    color: white;
+    color: white !important;
     padding: 5px 15px 5px 15px;
 	text-decoration: none;
 	transition-property: all;
