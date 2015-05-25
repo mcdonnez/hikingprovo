@@ -1,6 +1,6 @@
 <div id="frontpage" class="padding">
     <h4>Discover Utah's Greatest Treasure:<br/>The Outdoors of Utah.</h4>
-    <a class="primarybutton" href="index.php?page=hikes">Explore</a>
+    <a class="primarybutton" href="/hikes">Explore</a>
 </div>
     <div class="blackcontainer padding">
     <p class="bluemessage">There are over 20 hikes within an hour of Provo.</p>

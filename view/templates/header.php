@@ -35,16 +35,25 @@ if (isset($_POST["logout"]))
     <title>Zach's Hiking Guide to Provo</title>
     <link rel="shortcut icon" href="media/tree_favicon.gif" type="image/x-icon" />
     <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+    <script>
+  $(function() {
+    $( "#accordion" ).accordion();
+  });
+  </script>
 </head>
 <body>
 <div class="navigator">
 <nav>
-	<a class="homenav <? if($_GET['page'] == index || isset($_GET['page']) == false) echo 'myactive' ?>" href="index.php?page=index">Zach's Hiking Guide</a>
-  	<a class="mynav <? if($_GET['page'] == hikes) echo 'myactive' ?>" href="index.php?page=hikes">Provo Hikes</a>
-  	<a class="mynav <? if($_GET['page'] == map) echo 'myactive' ?>" href="index.php?page=map">Map</a>
-  	<a class="mynav" href="index.php?page=hikinglog">Hiking Log</a>
+	<a class="homenav <? if($_GET['page'] == index || isset($_GET['page']) == false) echo 'myactive' ?>" href="/">Zach's Hiking Guide</a>
+  	<a class="mynav <? if($_GET['page'] == hikes) echo 'myactive' ?>" href="/hikes">Provo Hikes</a>
+  	<a class="mynav <? if($_GET['page'] == map) echo 'myactive' ?>" href="/map">Map</a>
+  	<a class="mynav" href="/hikinglog">Hiking Log</a>
 	<? if($_SESSION["authenticated"] != true): ?>
-	<a class="mynav <? if($_GET['page'] == login) echo 'myactive' ?>" href="index.php?page=login">Log In</a>
+	<a class="mynav <? if($_GET['page'] == login) echo 'myactive' ?>" href="/login">Log In</a>
 	<? endif ?>
 	<? if($_SESSION["authenticated"] == true): ?>
 		<p class="mynav">Hello, <? echo $_COOKIE["user"] ?></p>
