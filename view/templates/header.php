@@ -42,7 +42,7 @@ if (isset($_POST["logout"]))
 	<a class="homenav <? if($_GET['page'] == index || isset($_GET['page']) == false) echo 'myactive' ?>" href="index.php?page=index">Zach's Hiking Guide</a>
   	<a class="mynav <? if($_GET['page'] == hikes) echo 'myactive' ?>" href="index.php?page=hikes">Provo Hikes</a>
   	<a class="mynav <? if($_GET['page'] == map) echo 'myactive' ?>" href="index.php?page=map">Map</a>
-  	<a class="mynav" href="index.php?pagehikinglog">Hiking Log</a>
+  	<a class="mynav" href="index.php?page=hikinglog">Hiking Log</a>
 	<? if($_SESSION["authenticated"] != true): ?>
 	<a class="mynav <? if($_GET['page'] == login) echo 'myactive' ?>" href="index.php?page=login">Log In</a>
 	<? endif ?>
