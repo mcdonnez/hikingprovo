@@ -1,6 +1,19 @@
 <?php
 	$xml = simplexml_load_file("../model/hike_database.xml") or die ("Error: Cannot create object");
 ?>
+<!-- Live Tiles -->
+  <script src="/js/MetroJs.lt.js"></script>
+  <link rel="stylesheet" href="/css/MetroJs.lt.css" type="text/css" />
+  <script>
+$( document ).ready(function() {
+
+var $tile1 = $("#tile1").liveTile({ repeatCount: 0, delay:0 });
+$("#tile1").click(function(){
+    $(this).liveTile('play');
+});
+});
+</script>
+
 <div id="secondpage" >
   <h1>Day Hikes</h1>
 </div>
@@ -12,7 +25,7 @@
 </div>
 <div id="accordion" class="hikecategory">
     <?php foreach ($xml->children() as $area) { ?>
-    <h4 class="hikeheader">
+    <h4 class="hikeheader" >
             <?php echo $area['name'] ?>
     </h4>
     <ul class="hikelist">
