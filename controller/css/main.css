@@ -233,7 +233,7 @@ td, th {
     padding: 0 0;
     list-style-type: none;
     background-image: url(../media/binding_dark.png);
-    opacity: .9;
+    opacity: 1;
 }
 .hikelist {
     margin: 0;
@@ -244,17 +244,26 @@ td, th {
 .hikeheader {
     padding: 5px;
     background-color: #303C88;
+    background: none;
     padding-left: 20px;
-    margin-top: 0px;
+    margin-top: 0px !important;
     margin-bottom: 5px;
     min-width: 300px;
     color: black;
+    border-color: black;
     border-radius: 5px;
     font-size: 2.5em;
     opacity: 1.0;
 }
+.hikeheader:selected {
+    background-color: #4267C0;
+}
+.hikeheader:hover {
+    background-color: #4267C0;
+}
+}
 .hikesection {
-    justify: 0 10%;
+    justify: 0 20px;
 }
 .hikemap {
     text-align:center;
