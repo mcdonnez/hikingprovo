@@ -1,9 +1,7 @@
 <?php
 	$xml = simplexml_load_file("../model/hike_database.xml") or die ("Error: Cannot create object");
 ?>
-<!-- Live Tiles -->
-  <script src="/js/MetroJs.lt.js"></script>
-  <link rel="stylesheet" href="/css/MetroJs.lt.css" type="text/css" />
+
   <script>
 $( document ).ready(function() {
 
