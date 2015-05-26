@@ -218,9 +218,37 @@ div>img {
 }
 .hike {
     width: 300px;
-    background-color: aliceblue;
-    display:inline-block;
-    border-radius: 5px;
+    height: 300px;
+    cursor: pointer;
+    overflow: hidden;
+    background-color: #c0def8;
+    display: inline-block;
+    border-radius: 0px;
+}
+.tile div{
+  width:100%;
+  height:100%;
+  display:table;
+  transition: all .3s ease;
+}
+.tile div p{
+  display:table-cell;
+  vertical-align:middle;
+}
+.hike div:nth-child(2){
+  top:100%;
+}
+/*both divs will be translated up on hover*/
+.slideTextUp div{
+  transform: translateY(-100%);
+}
+.fronttile {
+    font-size: 1em;
+    text-align: center;
+}
+.backtile {
+    display: inline-block !important;
+    height: 300px;
 }
 th, .center {
     text-align: center;
@@ -237,7 +265,7 @@ td, th {
 }
 .hikelist {
     margin: 0;
-    padding: 0;
+    padding: 5px 5px !important;
     list-style-type: none;
     background: none;
 }
@@ -261,9 +289,8 @@ td, th {
 .hikeheader:hover {
     background-color: #4267C0;
 }
-}
 .hikesection {
-    justify: 0 0px;
+    justify: 0 10px;
 }
 .hikemap {
     text-align:center;
@@ -279,6 +306,7 @@ td, th {
     color: white !important;
     padding: 5px 15px 5px 15px;
 	text-decoration: none;
+	text-align: center;
 	transition-property: all;
 	transition-duration: .3s;
 	transition-timing-function: ease-out;
@@ -293,12 +321,14 @@ td, th {
 .hikedescription {
     border-top: 2px solid black;
     text-align: justify;
-    height: 300px;
+    height: 267px;
+    overflow: hidden;
 }
 .hiketitle {
     border-bottom: 2px solid black;
     font-size: 1.8em;
     padding: 0px;
+    text-align: center;
 }
 /*Map Page Styles */
 .div img {

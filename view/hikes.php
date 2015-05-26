@@ -12,6 +12,13 @@ $("#tile1").click(function(){
     $(this).liveTile('play');
 });
 });
+function flip(tile) {
+    if(tile.className.match(/(?:^|\s)slideTextUp(?!\S)/)) {
+        tile.className = tile.className.replace( /(?:^|\s)slideTextUp(?!\S)/g , '' );
+    } else {
+        tile.className += " slideTextUp";
+    }
+}
 </script>
 
 <div id="secondpage" >
@@ -29,33 +36,29 @@ $("#tile1").click(function(){
             <?php echo $area['name'] ?>
     </h4>
     <ul class="hikelist">
-        <li>
             <?php foreach ($area->hike as $hike) { ?>
-                <table class="hike">
-                    <tr>
-                        <th colspan="2" class="hiketitle">
-                        <?php echo $hike->name ?>
-                        </th>
-                    </tr>
-                    <tr>
-                        <td>Difficulty:</br> 
-                        <?php echo $hike->difficulty ?>
-                        </td>
-                        <td>Distance:</br>
-                        <?php echo $hike->distance ?> Miles
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="hikedescription">
-                        <?php echo $hike->description ?>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2" class="coldirections"><a class="directions" href="<?php echo $hike->location ?>">Directions</a></td>
-                    </tr>
-                </table>
+                <li class="hike tile" id="tile<?php echo $hike['id'] ?>" >
+                <div onclick="flip(<?php echo "tile" . $hike['id'] ?>)">
+                    <p class="fronttile">
+                        <span class="hiketitle"><?php echo $hike->name ?></span>
+                        </br>
+                        Difficulty: <?php echo $hike->difficulty ?>
+                        </br>
+                        Distance: <?php echo $hike->distance ?> Miles
+                    </p>
+                </div>
+                <div onclick="flip(<?php echo "tile" . $hike['id'] ?>)">
+                    <table class="backtile">
+                        <tr class="hikedescription"><td >
+                            <?php echo $hike->description ?>
+                        </td></tr>
+                        <tr><td class="coldirections">
+                        <a class="directions" href="<?php echo $hike->location ?>">Directions</a>
+                        </td></tr>
+                    </table>
+                </div>
+                </li>
             <?php } ?>
-        </li>
-        </ul>
+    </ul>
     <?php } ?>
 </div>
