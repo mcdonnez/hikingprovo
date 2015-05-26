@@ -10,7 +10,7 @@ if (mysqli_connect_error()) {
     die('Connect Error (' . mysqli_connect_errno() . ') '
             . mysqli_connect_error());
 }
-
+//here's a change
 //echo 'Success... ' . $mysqli->host_info . "<br />\n";
 
 $sql = "SHOW DATABASES";
