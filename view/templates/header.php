@@ -6,10 +6,9 @@ header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
 header("Cache-Control: post-check=0, pre-check=0", false);
 header("Pragma: no-cache");
 //Dummy password
-define("USER","Zachm");
-define("PASS","12345");
 if (isset($_POST["user"]) && isset($_POST["pass"]))
 {
+	require_once ("../view/functions/checkuser.php");
 	if ($_POST["user"] == USER && $_POST["pass"] == PASS)
 	{
 		// remember that user's logged in

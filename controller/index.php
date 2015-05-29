@@ -8,11 +8,6 @@ else
 	$page = 'index';
 switch ($page)
 {
-	case 'index':
-		render('templates/header', array('active' => 'index'));
-		render('index');
-		render('templates/footer');
-		break;
 	case 'hikes':
 		render('templates/header', array('active' => 'hikes'));
 		render('hikes');
@@ -45,7 +40,7 @@ switch ($page)
 		break;
 	case 'addedhike':
 		render('templates/header', array('active' => 'index'));
-		render('hiketodb');
+		render('hikedb');
 		render('templates/footer');
 		break;
 	default:

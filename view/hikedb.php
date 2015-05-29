@@ -1,4 +1,5 @@
 <?php
+echo "test";
 print_r($_POST);
 require_once ("../view/functions/connect.php");
 

@@ -2,7 +2,7 @@
 print_r($_GET);
 print_r($_POST);
 ?>
-<form action="index.php?page=hiketodb" method="post">
+<form action="index.php?page=addedhike" method="post">
 	<table>
 		<tr>
 			<td>Hike Name:</td>
