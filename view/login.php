@@ -1,18 +1,18 @@
 <?php
 ?>
 
-<form action="<? $_SERVER["PHP_SELF"] ?>" method="post">
+<form action="<?php $_SERVER["PHP_SELF"] ?>" method="post">
 	<table>
 		<tr>
 			<td>Username:</td>
 			<td>
-				<? if (isset($_POST["user"])): ?>
+				<?php if (isset($_POST["user"])): ?>
 					<input name="user" type="text" value="<?= htmlspecialchars($_POST["user"]) ?>">
-				<? elseif (isset($_COOKIE["user"])): ?>
+				<?php elseif (isset($_COOKIE["user"])): ?>
 					<input name="user" type="text" value="<?= htmlspecialchars($_COOKIE["user"]) ?>">
-				<? else: ?>
+				<?php else: ?>
 					<input name="user" type="text" value="">
-				<? endif ?>
+				<?php endif ?>
 			</td>
 		</tr>
 		<tr>

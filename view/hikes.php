@@ -3,13 +3,6 @@
 ?>
 
   <script>
-$( document ).ready(function() {
-
-var $tile1 = $("#tile1").liveTile({ repeatCount: 0, delay:0 });
-$("#tile1").click(function(){
-    $(this).liveTile('play');
-});
-});
 function flip(tile) {
     if(tile.className.match(/(?:^|\s)slideTextUp(?!\S)/)) {
         tile.className = tile.className.replace( /(?:^|\s)slideTextUp(?!\S)/g , '' );

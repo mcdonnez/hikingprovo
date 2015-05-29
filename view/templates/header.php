@@ -60,18 +60,18 @@ if (isset($_POST["logout"]))
 <body>
 <div class="navigator">
 <nav>
-	<a class="homenav <? if($_GET['page'] == index || isset($_GET['page']) == false) echo 'myactive' ?>" href="/">Zach's Hiking Guide</a>
-  	<a class="mynav <? if($_GET['page'] == hikes) echo 'myactive' ?>" href="/hikes">Provo Hikes</a>
-  	<a class="mynav <? if($_GET['page'] == map) echo 'myactive' ?>" href="/map">Map</a>
+	<a class="homenav <?php if($_GET['page'] == index || isset($_GET['page']) == false) echo 'myactive' ?>" href="/">Zach's Hiking Guide</a>
+  	<a class="mynav <?php if($_GET['page'] == hikes) echo 'myactive' ?>" href="/hikes">Provo Hikes</a>
+  	<a class="mynav <?php if($_GET['page'] == map) echo 'myactive' ?>" href="/map">Map</a>
   	<a class="mynav" href="/hikinglog">Hiking Log</a>
-	<? if($_SESSION["authenticated"] != true): ?>
-	<a class="mynav <? if($_GET['page'] == login) echo 'myactive' ?>" href="/login">Log In</a>
-	<? endif ?>
-	<? if($_SESSION["authenticated"] == true): ?>
-		<p class="mynav">Hello, <? echo $_COOKIE["user"] ?></p>
+	<?php if($_SESSION["authenticated"] != true): ?>
+	<a class="mynav <?php if($_GET['page'] == login) echo 'myactive' ?>" href="/login">Log In</a>
+	<?php endif ?>
+	<?php if($_SESSION["authenticated"] == true): ?>
+		<p class="mynav">Hello, <?php echo $_COOKIE["user"] ?></p>
 	<form class="mynav login" action="<?= $_SERVER["PHP_SELF"] ?>" method="post">
 		<input name="logout" type="submit" value="Log out">
 	</form>
-	<? endif ?>
+	<?php endif ?>
 </nav>
 </div>

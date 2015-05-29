@@ -38,6 +38,16 @@ switch ($page)
 		render('functions/connect');
 		render('templates/footer');
 		break;
+	case 'addhike':
+		render('templates/header', array('active' => 'index'));
+		render('addhike');
+		render('templates/footer');
+		break;
+	case 'addedhike':
+		render('templates/header', array('active' => 'index'));
+		render('hiketodb');
+		render('templates/footer');
+		break;
 	default:
 		render('templates/header', array('active' => 'index'));
 		render('index');
