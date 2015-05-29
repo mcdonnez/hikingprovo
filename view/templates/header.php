@@ -9,19 +9,6 @@ header("Pragma: no-cache");
 if (isset($_POST["user"]) && isset($_POST["pass"]))
 {
 	require_once ("../view/functions/checkuser.php");
-	if ($_POST["user"] == USER && $_POST["pass"] == PASS)
-	{
-		// remember that user's logged in
-		$_SESSION["authenticated"] = true;
-		
-		// save username in cookie for a week
-		setcookie("user", $_POST["user"], time() + 7 * 24 * 60 * 60);
-		
-		//redirect user to homepage
-		$host = $_SERVER["HTTP_HOST"];
-		$path = rtrim(dirname($_SERVER["PHP_SELF"]), "/\\");
-		header("Location: http://$host$path/index.php");
-	}
 }
 if (isset($_POST["logout"]))
 {
