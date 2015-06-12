@@ -38,7 +38,7 @@
 		<difficulty>Strenuous</difficulty>
 		<distance>1.5</distance>
 		<popularity>Low</popularity>
-		<description>13.4 Miles down Squaw Peak Road is one of the seven peaks of the Wasatch Front, Provo Peak. Not for the faint of heart or those trying to get to the unmarked trail head in a passenger vehicle. Squaw Peak Road is maintained until Rock Canyon Campground located 10 miles down Squaw Peak Road leaving 3.4 miles of rocky and rutted dirt road to the trail head. From the trail head Provo peak is maybe 1.5 miles to the Peak however each step is directly upward.</description>
+		<description>Not for the faint of heart or those trying to get to the unmarked trail head in a passenger vehicle. Squaw Peak Road is maintained until Rock Canyon Campground 10 miles down Squaw Peak Road. 3.4 miles beyond the campgroud is the trailhead. From the trail head Provo peak is maybe 1.5 miles to the Peak.</description>
 		<location>https://www.google.com/maps/place/Provo+Peak+Trail+Head</location>
 	</hike>
 	<hike id="6">
@@ -80,7 +80,7 @@
 		<difficulty>Hard</difficulty>
 		<distance>6.6</distance>
 		<popularity>Low</popularity>
-		<description>If you want to escape the crowds amassed on the Y continue along the trails to Y Mountain. Past the Y the trail narrows and lessens in elevation gain \). This trail enters into some small groves of trees and meadows on it's way to the top of Y mountain. When you finally get to the top there are two points. The Y mountain overlook which looks out over the valley and the actual Y mountain peak which gives a spectacular view of the mountains and valleys on the other side of Rock Canyon.</description>
+		<description>If you want to escape the crowds amassed on the Y continue along the trail to Y Mountain. After the Y, the trail narrows and lessens in elevation gain \). When you get to the top there are two points. The Y mountain overlook which looks out over the valley and the actual Y mountain peak which gives a spectacular view of the mountains and valleys on the other side of Rock Canyon.</description>
 		<location>https://www.google.com/maps/place/Y+Mountain</location>
 	</hike>
 </area>
@@ -124,7 +124,7 @@
 		<difficulty>Moderate</difficulty>
 		<distance>4.6</distance>
 		<popularity>High</popularity>
-		<description>This is a great hot springs located in at the end of Diamond fork canyon. This canyon is beautiful and has a whole bunch of locations to stop and have a picnic. 10 miles down the road you can find the trail head to Fifth Water hot springs. It's 2.3 miles to the hot springs which is located right along the creek. This is a great hike and hot springs. The hot springs has a lot of sulfur and make sure to wash your swimsuit separate from the rest of your clothes unless you like the smell of sulfur.</description>
+		<description>This is a great hot springs located at the end of Diamond fork canyon. It's 2.3 miles to the hot springs which is located right along the creek. This is a great hike and hot springs. The hot springs has a lot of sulfur and make sure to wash your swimsuit separate from the rest of your clothes unless you like the smell of sulfur.</description>
 		<location></location>
 	</hike>
 </area>
@@ -134,7 +134,7 @@
 		<difficulty>Moderate</difficulty>
 		<distance>4.4</distance>
 		<popularity>High</popularity>
-		<description>Silver Lake is located up American Fork Canyon. The last bit is on a dirt road so a vehicle with high clearance is recommended but not required. The trail is 2.2 miles and ends at a pristine lake nestled in the mountains. The water is clear and the hike is breathtaking. Overall it takes maybe two and a half hours of hiking but you will definitely want to take some time to enjoy nature. There are also peaks and another small lake about a mile from the lake for those that want to have a little more adventure. There is a $6 fee to enter the canyon.</description>
+		<description>The last bit of road to the trailhead is a dirt road recommended for verhicles with high clearance but this is not required. The trail is 2.2 miles and ends at a pristine lake nestled in the mountains. The water is clear and the hike is breathtaking. Overall it takes maybe two and a half hours of hiking but you will definitely want to take some time to enjoy nature.</description>
 		<location></location>
 	</hike>
 	<hike id="17">
@@ -178,7 +178,7 @@
 		<difficulty>Easy</difficulty>
 		<distance>1.4</distance>
 		<popularity>Medium</popularity>
-		<description>Dry Canyon is a short hike up a beautiful canyon in Utah Valley. The trail is well maintained but is not frequented much.  The trail follows a water pipe that runs along the entire length of the trail and at points you can hear the water gurgling beneath you. The trail is about the same steepness as all the other canyons in the area. At the top of Dry Canyou you can take trail back to the cliffs of the canyon walls. Upon reaching one of the cliffs there is a breathtaking view of Utah Valley and Utah Lake. Definitely a fun short hike.</description>
+		<description>Dry Canyon is a short hike up a beautiful canyon in Utah Valley. The trail is well maintained but is not frequented much.  The trail follows a water pipe that runs along the entire length of the trail and at points you can hear the water gurgling beneath you. Upon reaching one of the cliffs there is a breathtaking view of Utah Valley and Utah Lake. Definitely a fun short hike.</description>
 		<location></location>
 	</hike>
 	<hike id="23">
@@ -199,10 +199,10 @@
 	</hike>
 	<hike id="25">
 		<name>Grove Creek Canyon</name>
-		<difficulty>Hard</difficulty>
+		<difficulty>Medium</difficulty>
 		<distance>6</distance>
 		<popularity>Medium</popularity>
-		<description>Start this hike early because the trail is located on the south side of the canyon leaving you exposed to the sun on a dusty trail with little cover. The trail starts out following the stream until you take a sudden switch back all the way to the mouth of the canyon and back in again up to a gorgeous stream and series of waterfalls where two streams connect. Definitely worth the difficult hike.</description>
+		<description>Start this hike early because the trail is located on the south side of the canyon leaving you exposed to the sun on a dusty trail with little cover. The trail starts out following the stream until you take a sudden switch back all the way to the mouth of the canyon and back in again up to a gorgeous stream and series of waterfalls where two streams connect.</description>
 		<location></location>
 	</hike>
 	<hike id="26">

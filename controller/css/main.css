@@ -323,6 +323,7 @@ td, th {
     text-align: justify;
     height: 267px;
     overflow: hidden;
+    font-size: 1em;
 }
 .hiketitle {
     border-bottom: 2px solid black;
