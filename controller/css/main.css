@@ -164,7 +164,7 @@ a:hover {
     color: black;
     text-align: justify;
     max-width: 90%;
-    font-size: 1.3;
+    font-size: 1.3em;
 }
 .quote {
 	font-family: Lora, arial;
@@ -270,6 +270,7 @@ td, th {
     list-style-type: none;
     background: none;
     text-align: center;
+    height: 100;
 }
 .hikeheader {
     padding: 5px;
