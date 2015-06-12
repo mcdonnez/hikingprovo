@@ -270,7 +270,7 @@ td, th {
     list-style-type: none;
     background: none;
     text-align: center;
-    height: 100;
+    height: 100% !important;
 }
 .hikeheader {
     padding: 5px;
