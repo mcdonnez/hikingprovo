@@ -24,6 +24,7 @@ if (isset($_POST["logout"]))
 <html>
 <head>
     <title>Zach's Hiking Guide to Provo</title>
+    <meta name=viewport content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="media/tree_favicon.gif" type="image/x-icon" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="css/main.css" type="text/css" />

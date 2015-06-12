@@ -135,7 +135,7 @@ a:hover {
 .bluemessage {
     margin: 0 auto;
     color: aliceblue;
-    max-width: 500px;
+    max-width: 90%;
 	align-content: center;
 	text-align: justify;
 }
