@@ -1,5 +1,11 @@
 <?php
-	$xml = simplexml_load_file("../model/hike_database.xml") or die ("Error: Cannot create object");
+require_once ("../view/functions/connect.php");
+
+$sql = "SELECT * FROM hike INNER JOIN area ON hike.areaid=area.areaid ORDER BY hike.areaid;";
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+    $area = " ";
+    $tmpcount = 1;
 ?>
 
   <script>
@@ -22,34 +28,50 @@ function flip(tile) {
     total of 27 hikes (and counting) listed on this page.</p>
 </div>
 <div id="accordion" class="hikecategory">
-    <?php foreach ($xml->children() as $area) { ?>
+    <?php while($row = $result->fetch_assoc()) : ?>
+    <?php if (strcmp($row["areaname"],$area) != 0 && $tmpcount != 1) : ?>
+    </ul>
+    <?php endif ?>
+    <?php if (strcmp($row["areaname"],$area) != 0) : ?>
     <h4 class="hikeheader" >
-            <?php echo $area['name'] ?>
+            <?php echo $row["areaname"] ?>
     </h4>
     <ul class="hikelist">
-            <?php foreach ($area->hike as $hike) { ?>
-                <li class="hike tile" id="tile<?php echo $hike['id'] ?>" >
-                <div onclick="flip(<?php echo "tile" . $hike['id'] ?>)">
+    <?php $tmpcount++; endif ?>
+        <li class="hike tile" id="tile<?php echo $row['id'] ?>" >
+                <div onclick="flip(<?php echo "tile" . $row['id'] ?>)">
                     <p class="fronttile">
-                        <span class="hiketitle"><?php echo $hike->name ?></span>
+                        <span class="hiketitle"><?php echo $row["name"] ?></span>
                         </br>
-                        Difficulty: <?php echo $hike->difficulty ?>
+                        Difficulty: <?php echo $row["difficulty"] ?>
                         </br>
-                        Distance: <?php echo $hike->distance ?> Miles
+                        Distance: <?php echo $row["distance"] ?> Miles
                     </p>
                 </div>
-                <div onclick="flip(<?php echo "tile" . $hike['id'] ?>)">
+                <div onclick="flip(<?php echo "tile" . $row['id'] ?>)">
                     <table class="backtile">
                         <tr class="hikedescription"><td >
-                            <?php echo $hike->description ?>
+                            <?php echo $row["description"] ?>
                         </td></tr>
                         <tr><td class="coldirections">
-                        <a class="directions" href="<?php echo $hike->location ?>">Directions</a>
+                        <a class="directions" href="<?php echo $row["location"] ?>">Directions</a>
                         </td></tr>
                     </table>
                 </div>
-                </li>
-            <?php } ?>
-    </ul>
-    <?php } ?>
+        </li>
+    <?php $area = $row["areaname"]; endwhile ?>
 </div>
+    <?php $conn->close(); ?>
+<?php } ?>
+<?php
+$fib = [1,0];
+for($i=0; $i<30; $i++) {
+    $next = array_sum($fib);
+    array_shift($fib);
+    array_push($fib,$next);
+    echo $next.", ";
+    //This is a change
+}
+?>
+
+
