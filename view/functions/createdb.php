@@ -9,7 +9,10 @@ if ($conn->query($sql) === TRUE) {
     echo "Error showing tables" . $conn->error;
 }
 $conn->close();
+
+
 /*
+mysql --host=us-cdbr-iron-east-02.cleardb.net --user=b8e9dd604a65d7 --password=211c9f81 heroku_1358da360762cc0
 CREATE TABLE user (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 firstname VARCHAR(30) NOT NULL,
